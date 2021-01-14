@@ -130,7 +130,7 @@ func (j *JSONPath) FindResults(data interface{}) ([][]reflect.Value, error) {
 					break
 				}
 			}
-			continue
+			break
 		}
 		fullResult = append(fullResult, results)
 	}
